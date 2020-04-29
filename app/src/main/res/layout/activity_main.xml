@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/myFootball"
+        android:layout_width="151dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/this_is_image"
+        android:src="@drawable/football" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="199dp"
+        android:layout_height="128dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:fontFamily="casual"
+        android:onClick="onStart"
+        android:text="@string/start"
+        android:textColor="#64DD17"
+        android:textSize="55sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/myFootball1"
+        android:layout_width="151dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+        android:contentDescription="@string/this_is_image"
+        android:src="@drawable/football" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="148dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="casual"
+        android:onClick="onStop"
+        android:text="@string/stop"
+        android:textColor="#F44336"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/myFootball2"
+        android:layout_width="151dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/this_is_image"
+        android:src="@drawable/football" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="217dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="casual"
+        android:onClick="onReset"
+        android:text="@string/reset"
+        android:textColor="#F57C00"
+        android:textSize="55sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="40dp"
+        android:fontFamily="casual"
+        android:text="@string/stopwatch"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="140dp"
+        android:textColor="@android:color/white"
+        android:textSize="80sp"
+        tools:text="@string/st" />
+
+
+</RelativeLayout>

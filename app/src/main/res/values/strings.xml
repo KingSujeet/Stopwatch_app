@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Stopwatch</string>
+    <string name="start">START</string>
+    <string name="reset">RESET</string>
+    <string name="stopwatch">STOPWATCH</string>
+    <string name="st"></string>
+    <string name="stop">STOP</string>
+    <string name="todo">TODO</string>
+    <string name="this_is_image">this is image</string>
+</resources>

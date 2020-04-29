@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="100dp"
+        android:fontFamily="casual"
+        android:text="@string/stopwatch"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/myFootball"
+        android:layout_width="402dp"
+        android:layout_height="210dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="203dp"
+        android:contentDescription="@string/this_is_image"
+        android:src="@drawable/football" />
+
+    <ImageView
+        android:id="@+id/myFootball1"
+        android:layout_width="392dp"
+        android:layout_height="327dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/this_is_image"
+        android:src="@drawable/stopwatch" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="73dp"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="Made by Sujeet Thakur"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
